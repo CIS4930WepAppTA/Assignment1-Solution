@@ -48,6 +48,7 @@ public class Application implements CommandLineRunner {
         log.info(albumDAO.getAlbum(42).toString());
         log.info(trackDAO.getAllTracks().toString());
         log.info(albumDAO.getAllAlbums().toString());
+
        System.out.println("Track deletion successful? "+ trackDAO.deleteTrack(new Track(1)));
        System.out.println("Album deletion successful? "+ albumDAO.deleteAlbum(new Album (45, "Album 45")));
 
