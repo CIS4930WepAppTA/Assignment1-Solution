@@ -22,6 +22,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
+        <!--Dependency to work with in-memory database-->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
